@@ -16,7 +16,7 @@ import com.abhi.swipemicroservices.model.SwipeEvent;
 
 @Service
 public class SwipeEventService {
-	
+	//Global map
 	private static HashMap<Long, List<SwipeEvent>> eventCollection=new HashMap<>();
 
 	public void processSwipeEvent(SwipeEventRequestDTO requestDTO) {
